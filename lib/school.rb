@@ -22,7 +22,18 @@ def grade (level)
 end 
 
 
+def sort
+  
+  roster.map do |x,y|
+    hash[x] = y.sort
+  end 
 end 
+
+
+end 
+
+
+
 
 
 
