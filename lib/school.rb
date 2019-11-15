@@ -12,6 +12,15 @@ def add_student(student, grade)
   @roster[grade] << student
 end 
 
+def grade (level)
+
+  roster.map do |x,y|
+    if x == level
+      return y
+    end 
+  end 
+end 
+
 
 end 
 
