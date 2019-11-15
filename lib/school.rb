@@ -24,7 +24,7 @@ end
 
 def sort
   hash = {}
-  roster.map do |x,y|
+  roster.each do |x,y|
     hash[x] = y.sort
   end 
   hash
